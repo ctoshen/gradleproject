@@ -11,4 +11,4 @@ phases:
       - gradle fatJar
 artifacts:
   files:
-    - build/libs/gradle-create-single-jar-all-1.0.jar
+    - target/gradle-create-single-jar-all-1.0.jar
