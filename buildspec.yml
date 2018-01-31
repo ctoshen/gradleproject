@@ -10,6 +10,7 @@ phases:
       - echo Build completed on `date`
       - gradle build
       - echo $(pwd)
+      - echo $(ls -LR)
 artifacts:
   files:
     - build/libs/gradle-create-single-jar-all-1.0.jar
