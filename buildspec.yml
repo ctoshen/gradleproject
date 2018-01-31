@@ -11,4 +11,5 @@ phases:
       - gradle build
 artifacts:
   files:
-    - build/libs/gradleproject-1.0.jar
+     - '**/*'
+   # - build/libs/gradleproject-1.0.jar
