@@ -9,7 +9,7 @@ phases:
     commands:
       - echo Build completed on `date`
       - gradle fatJar
-      - locate -b 'gradle-create-single-jar-all-1.0.jar'
+      - find -name 'gradle-create-single-jar-all-1.0.jar'
 artifacts:
   files:
     - gradle-create-single-jar-all-1.0.jar
