@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo Build started on `date`
+      - gradle clean
+  post_build:
+    commands:
+      - echo Build completed on `date`
+      - gradle fatJar
+artifacts:
+  files:
+    - build/libs/gradle-create-single-jar-all-1.0.jar
