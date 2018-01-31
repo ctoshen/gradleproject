@@ -8,7 +8,7 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-      - gradle fatJar
+      - gradle fatJar --debug
 artifacts:
   files:
-    - target/gradle-create-single-jar-all-1.0.jar
+    - gradle-create-single-jar-all-1.0.jar
