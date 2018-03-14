@@ -13,3 +13,4 @@ artifacts:
   files:
      - '**/*'
    # - build/libs/gradleproject-1.0.jar
+   # notes
