@@ -4,7 +4,7 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      #- gradle clean
+      - gradle clean
   post_build:
     commands:
       - echo Build completed on `date`
@@ -13,4 +13,4 @@ artifacts:
   base-directory:
   files:
      - '**/*'
-   # - build/libs/gradleproject-1.0.jar
+    # - build/libs/gradleproject-1.0.jar
